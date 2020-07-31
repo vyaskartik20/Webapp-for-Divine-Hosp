@@ -318,6 +318,104 @@ http://www.tooplate.com/view/2098-health
     font-weight: 500;
   }
 
+  .service-widget h3 {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 12px 0 12px;
+    margin: 0;
+    background: #157fda;
+    text-align: center;
+}
+
+.logos img {
+  margin: auto;
+  display: block;
+  text-align: center;
+  width: 100%;
+  opacity: 0.3;
+}
+
+.logos img:hover {
+  opacity: 0.5;
+}
+
+.desc h3 i {
+  color:#4b0091;
+  font-size: 37px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+.desc {
+  color:#4b0091;
+  padding: 30px;
+  position: relative;
+  background: white;
+  border: 2px solid #4b0091;
+}
+
+.testi-meta {
+  display: block;
+  margin-top: 20px;
+}
+
+.testimonial h4 {
+  font-size: 18px;
+  color: #ffffff;
+  padding: 13px 0 0;
+}
+
+.testimonial img {
+  max-width: 55px;
+}
+
+.testimonial small {
+  margin-top: 7px;
+  font-size: 16px;
+  display: block;
+}
+
+.testimonial {
+  background-color: transparent;
+}
+
+.testimonial h3 {
+  padding: 0 0 10px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.testimonial small,
+.testimonial .lead {
+  background-color: transparent;
+  color: rgb(255, 71, 71);
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.testimonial .lead-head {
+  background-color: transparent;
+  color:#4b0091;
+  display: block;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.testimonial p:after {
+  display: none;
+}
+
+
+
   .navbar-default .navbar-brand .fa {
     color: #a5c422;
   }
