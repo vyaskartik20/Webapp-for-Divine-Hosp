@@ -66,7 +66,7 @@ http://www.tooplate.com/view/2098-health
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-sm-5">
-            <p>Welcome to a Professional Health Care</p>
+            <p>Welcome a better life today</p>
           </div>
 
           <div class="col-md-8 col-sm-7 text-align-right">
@@ -102,14 +102,14 @@ http://www.tooplate.com/view/2098-health
 
           <!-- lOGO TEXT HERE -->
           <a href="index.html" class="navbar-brand"
-            ><i class="fa fa-h-square"></i>ealth Center</a
+            >DIVINE HOSPITAL</a
           >
         </div>
 
         <!-- MENU LINKS -->
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="" class="smoothScroll">Home</a></li>
+            <li><a href="{% url 'index' %}" class="smoothScroll">Home</a></li>
             <li><a href="{% url 'about' %}" class="smoothScroll">About Us</a></li>
             <li><a href="{% url 'doctors' %}" class="smoothScroll">Doctors</a></li>
             <li><a href="{% url 'news' %}" class="smoothScroll">News</a></li>
@@ -170,8 +170,8 @@ http://www.tooplate.com/view/2098-health
                  <div class="mu-gallery-area">
                   <!-- start title -->
                   <div class="mu-title">
-                    <h2>Some Moments</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ut laboriosam corporis doloribus, officia, accusamus illo nam tempore totam alias!</p>
+                    <h2>Some Memorable Captures</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores ut laboriosam corporis doloribus, officia, accusamus illo nam tempore totam alias!</p> -->
                   </div>
                   <!-- end title -->
                   <!-- start gallery content -->
@@ -180,162 +180,678 @@ http://www.tooplate.com/view/2098-health
                     <div class="mu-gallery-top">              
                       <ul>
                         <li class="filter active" data-filter="all">All</li>
-                        <li class="filter" data-filter=".lab">Lab</li>
-                        <li class="filter" data-filter=".classroom">Class Room</li>
-                        <li class="filter" data-filter=".library">Library</li>
-                        <li class="filter" data-filter=".cafe">Cafe</li>
-                        <li class="filter" data-filter=".others">Others</li>
+                        <li class="filter" data-filter=".infrastructure">Infrastructure</li>
+                        <li class="filter" data-filter=".events">Events</li>
+                        <!-- <li class="filter" data-filter=".facilities">Facilities</li> -->
+                        <li class="filter" data-filter=".doctors">Doctors</li>
+                        <li class="filter" data-filter=".awards">Awards</li>
+                        <li class="filter" data-filter=".news">News</li>
+                        <li class="filter" data-filter=".ot">Operation Theatre</li>
+                        <li class="filter" data-filter=".brochures">Brochures</li>
                       </ul>
                     </div>
                     <!-- End gallery menu -->
                     <div class="mu-gallery-body">
                       <ul id="mixit-container" class="row">
                         <!-- start single gallery image -->
-                        <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
+
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix awards doctors  ">
                           <div class="mu-single-gallery">                  
                             <div class="mu-single-gallery-item">
                               <div class="mu-single-gallery-img">
-                                <a href="#"><img alt="img" src="../../static/assets/img/gallery/small/1.jpg"></a>
+                                <a href="#"><img alt="img" src="../../static/assets/all/1.jpeg"></a>
                               </div>
                               <div class="mu-single-gallery-info">
                                 <div class="mu-single-gallery-info-inner">
-                                  <h4>Image Title</h4>
-                                  <p>Web Design</p>
-                                  <a href="../../static/assets/img/gallery/big/1.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
-                                  <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
-                                </div>
+                                  <a href="../../static/assets/all/1.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
                               </div>                  
                             </div>
                           </div>
                         </li>
-                        <!-- start single gallery image -->
-                       <li class="col-md-4 col-sm-6 col-xs-12 mix library">
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix awards doctors  ">
                           <div class="mu-single-gallery">                  
                             <div class="mu-single-gallery-item">
                               <div class="mu-single-gallery-img">
-                                <a href="#"><img alt="img" src="../../static/assets/img/gallery/small/2.jpg"></a>
+                                <a href="#"><img alt="img" src="../../static/assets/all/2.jpeg"></a>
                               </div>
                                <div class="mu-single-gallery-info">
                                 <div class="mu-single-gallery-info-inner">
-                                  <h4>Image Title</h4>
-                                  <p>Animation</p>
-                                  <a href="../../static/assets/img/gallery/big/2.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
-                                  <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                                  <a href="../../static/assets/all/2.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
                                 </div>
                               </div> 
                             </div>
                           </div>
-                       </li>
-                        <!-- start single gallery image -->
-                        <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
+                        </li>
+                        
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix awards events ">
                           <div class="mu-single-gallery">                  
                             <div class="mu-single-gallery-item">
                               <div class="mu-single-gallery-img">
-                                <a href="#"><img alt="img" src="../../static/assets/img/gallery/small/3.jpg"></a>
+                                <a href="#"><img alt="img" src="../../static/assets/all/3.jpeg"></a>
                               </div>
                               <div class="mu-single-gallery-info">
                                 <div class="mu-single-gallery-info-inner">
-                                  <h4>Image Title</h4>
-                                  <p>Math</p>
-                                  <a href="../../static/assets/img/gallery/big/3.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
-                                  <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
-                                </div>
-                              </div>
+                                  <a href="../../static/assets/all/3.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
                             </div>
                           </div>
                         </li>
-                        <!-- start single gallery image -->
-                        <li class="col-md-4 col-sm-6 col-xs-12 mix classroom">
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix awards events ">
                           <div class="mu-single-gallery">                  
                             <div class="mu-single-gallery-item">
                               <div class="mu-single-gallery-img">
-                                <a href="#"><img alt="img" src="../../static/assets/img/gallery/small/4.jpg"></a>
+                                <a href="#"><img alt="img" src="../../static/assets/all/4.jpeg"></a>
                               </div>
                                <div class="mu-single-gallery-info">
                                 <div class="mu-single-gallery-info-inner">
-                                  <h4>Image Title</h4>
-                                  <p>English</p>
-                                  <a href="../../static/assets/img/gallery/big/4.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
-                                  <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                                  <a href="../../static/assets/all/4.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
                                 </div>
-                              </div>
+                              </div> 
                             </div>
                           </div>
                         </li>
-                        <!-- start single gallery image -->
-                        <li class="col-md-4 col-sm-6 col-xs-12 mix others">
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix awards events ">
                           <div class="mu-single-gallery">                  
                             <div class="mu-single-gallery-item">
                               <div class="mu-single-gallery-img">
-                                <a href="#"><img alt="img" src="../../static/assets/img/gallery/small/5.jpg"></a>
+                                <a href="#"><img alt="img" src="../../static/assets/all/5.jpeg"></a>
                               </div>
                               <div class="mu-single-gallery-info">
                                 <div class="mu-single-gallery-info-inner">
-                                  <h4>Image Title</h4>
-                                  <p>Graphics</p>
-                                  <a href="../../static/assets/img/gallery/big/5.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
-                                  <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
-                                </div>
-                              </div>
+                                  <a href="../../static/assets/all/5.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
                             </div>
                           </div>
                         </li>
-                        <!-- start single gallery image -->
-                        <li class="col-md-4 col-sm-6 col-xs-12 mix cafe">
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix awards news ">
                           <div class="mu-single-gallery">                  
                             <div class="mu-single-gallery-item">
                               <div class="mu-single-gallery-img">
-                                <a href="#"><img alt="img" src="../../static/assets/img/gallery/small/6.jpg"></a>
+                                <a href="#"><img alt="img" src="../../static/assets/all/6.jpeg"></a>
                               </div>
                                <div class="mu-single-gallery-info">
                                 <div class="mu-single-gallery-info-inner">
-                                  <h4>Image Title</h4>
-                                  <p>Health</p>
-                                  <a href="../../static/assets/img/gallery/big/6.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
-                                  <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
+                                  <a href="../../static/assets/all/6.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
                                 </div>
-                              </div>
+                              </div> 
                             </div>
                           </div>
                         </li>
-                        <!-- start single gallery image -->
-                        <li class="col-md-4 col-sm-6 col-xs-12 mix others">
+
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix awards news ">
                           <div class="mu-single-gallery">                  
                             <div class="mu-single-gallery-item">
                               <div class="mu-single-gallery-img">
-                                <a href="#"><img alt="img" src="../../static/assets/img/gallery/small/7.jpg"></a>
+                                <a href="#"><img alt="img" src="../../static/assets/all/7.jpeg"></a>
                               </div>
                               <div class="mu-single-gallery-info">
                                 <div class="mu-single-gallery-info-inner">
-                                  <h4>Image Title</h4>
-                                  <p>Sports</p>
-                                  <a href="../../static/assets/img/gallery/big/7.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
-                                  <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
-                                </div>
-                              </div>             
-                            </div>
-                          </div> 
-                        </li>
-                         <!-- start single gallery image -->
-                        <li class="col-md-4 col-sm-6 col-xs-12 mix library">
-                          <div class="mu-single-gallery">                  
-                            <div class="mu-single-gallery-item">
-                              <div class="mu-single-gallery-img">
-                                <a href="#"><img alt="img" src="../../static/assets/img/gallery/small/8.jpg"></a>
-                              </div>
-                               <div class="mu-single-gallery-info">
-                                <div class="mu-single-gallery-info-inner">
-                                  <h4>Image Title</h4>
-                                  <p>Health</p>
-                                  <a href="../../static/assets/img/gallery/big/8.jpg" data-fancybox-group="gallery" class="fancybox"><span class="fa fa-eye"></span></a>
-                                  <a href="#" class="aa-link"><span class="fa fa-link"></span></a>
-                                </div>
-                              </div>
+                                  <a href="../../static/assets/all/7.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
                             </div>
                           </div>
                         </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix brochures  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/8.jpg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/8.jpg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+                        
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix brochures  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/9.jpg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/9.jpg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix brochures  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/10.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/10.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix brochures  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/11.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/11.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix brochures  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/12.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/12.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix doctors  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/13.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/13.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix doctors  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/14.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/14.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+                        
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix events  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/15.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/15.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix events ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/16.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/16.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix events ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/17.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/17.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix events ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/18.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/18.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix  events ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/19.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/19.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix events  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/20.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/20.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+                        
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix events  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/21.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/21.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix facilities infrastructure ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/22.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/22.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix facilities infrastructure ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/23.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/23.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix facilities infrastructure ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/24.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/24.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix facilities infrastructure ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/25.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/25.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix facilities infrastructure ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/26.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/26.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+                        
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix  facilities infrastructure  ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/27.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/27.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix facilities infrastructure ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/28.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/28.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix  infrastructure ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/29.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/29.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix infrastructure">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/30.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/30.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix  infrastructure">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/31.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/31.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix infrastructure">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/31.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/31.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+                        
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix infrastructure ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/32.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/32.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix news">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/33.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/33.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix news ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/34.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/34.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix news">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/35.jpg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/35.jpg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix news ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/36.jpg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/36.jpg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix news ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/37.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/37.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+                        
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix news ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/38.jpeg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/38.jpeg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix ot">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/39.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/39.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix ot ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/39.jpg"></a>
+                              </div>
+                              <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/39.jpg" data-fancybox-group="gallery"><span class="fa fa-eye"></span></a>
+                              </div>                  
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix ot">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/40.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/40.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix ot">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/41.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/41.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+
+                        <li class="col-md-4 col-sm-6 col-xs-12 mix ">
+                          <div class="mu-single-gallery">                  
+                            <div class="mu-single-gallery-item">
+                              <div class="mu-single-gallery-img">
+                                <a href="#"><img alt="img" src="../../static/assets/all/42.jpeg"></a>
+                              </div>
+                               <div class="mu-single-gallery-info">
+                                <div class="mu-single-gallery-info-inner">
+                                  <a href="../../static/assets/all/42.jpeg" data-fancybox-group="gallery" ><span class="fa fa-eye"></span></a>
+                                </div>
+                              </div> 
+                            </div>
+                          </div>
+                        </li>
+                       
+
+
+
+
                         <!-- start single gallery image -->
-                        <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
+                        <!-- <li class="col-md-4 col-sm-6 col-xs-12 mix lab">
                           <div class="mu-single-gallery">                  
                             <div class="mu-single-gallery-item">
                               <div class="mu-single-gallery-img">
@@ -351,7 +867,10 @@ http://www.tooplate.com/view/2098-health
                               </div>             
                             </div>
                           </div> 
-                        </li>
+                        </li> -->
+
+
+
                       </ul>            
                     </div>
                   </div>
