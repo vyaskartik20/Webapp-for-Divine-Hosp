@@ -11,6 +11,7 @@ urlpatterns = [
     path('news/', views.news, name='news'),
     path('newsdetail/', views.newsdetail, name='newsdetail'),
     path('gallery/', views.gallery, name='gallery'),
+    path('developers/', views.developers, name='developers'),
     
     # path('test/', views.appointment_form_view,
     #      name='appointment_form_view'),

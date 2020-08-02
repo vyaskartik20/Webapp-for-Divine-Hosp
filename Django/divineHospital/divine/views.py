@@ -54,3 +54,6 @@ def newsdetail(request):
 
 def gallery(request):
     return render(request, "Gallery.html", {})
+
+def developers(request):
+    return render(request, "Developers.html", {})

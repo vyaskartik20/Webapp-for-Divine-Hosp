@@ -68,7 +68,7 @@ http://www.tooplate.com/view/2098-health
       <div class="container">
         <div class="row">
           <div class="col-md-4 col-sm-5">
-            <p>Welcome a better life today</p>
+            <p>Dedicated to caring life</p>
           </div>
 
           <div class="col-md-8 col-sm-7 text-align-right">
@@ -142,7 +142,7 @@ http://www.tooplate.com/view/2098-health
                   <h3>Let's make your life happier</h3>
                   <h1>Happy Living</h1>
                   <a
-                    href="Doctors.html"
+                    href="{% url 'doctors' %}"
                     class="section-btn btn btn-default smoothScroll"
                     >Meet Our Doctors</a
                   >
@@ -156,7 +156,7 @@ http://www.tooplate.com/view/2098-health
                   <h3>We care for you</h3>
                   <h1>Healthy Living</h1>
                   <a
-                    href="About.html"
+                    href="{% url 'about' %}"
                     class="section-btn btn btn-default btn-gray smoothScroll"
                     >More About Us</a
                   >
@@ -170,7 +170,7 @@ http://www.tooplate.com/view/2098-health
                   <h3>Health always comes first</h3>
                   <h1>Peaceful Living</h1>
                   <a
-                    href="Gallery.html"
+                    href="{% url 'gallery' %}"
                     class="section-btn btn btn-default btn-blue smoothScroll"
                     >Visit our Gallery</a
                   >
@@ -316,15 +316,15 @@ http://www.tooplate.com/view/2098-health
     <span style="white-space: pre">       </span>
 
 
-    <div id="testimonials" class="wow fadeIn">
+    <!-- <div id="testimonials" class="wow fadeIn">
       <div class="container">
         
          <div class="heading">
-            <!-- <span class="icon-logo"><img src="images/icon-logo.png" alt="#"></span> --> <br><br>
+           <br><br>
             <h2>Testimonials</h2>
          </div>
          <span style="white-space: pre"> </span>
-         <!-- end title -->
+        
          <div class="row">
             <div class="col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.2s">
                <div class="testimonial clearfix">
@@ -336,11 +336,11 @@ http://www.tooplate.com/view/2098-health
                      <img src="../../static/images/testi_01.png" alt="" class="img-responsive alignleft">
                      <h4  class="lead-head" >James Fernando <small>- Manager of Racer</small></h4>
                   </div>
-                  <!-- end testi-meta -->
+                
                </div>
-               <!-- end testimonial -->
+             
             </div>
-            <!-- end col -->
+         
             <div class="col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.4s">
                <div class="testimonial clearfix">
                   <div class="desc">
@@ -351,13 +351,13 @@ http://www.tooplate.com/view/2098-health
                      <img src="../../static/images/testi_02.png" alt="" class="img-responsive alignleft">
                      <h4  class="lead-head" > Andrew Atkinson <small>- Life Manager</small></h4>
                   </div>
-                  <!-- end testi-meta -->
+                
                </div>
-               <!-- end testimonial -->
+              
             </div>
-            <!-- end col -->
+           
          </div>
-         <!-- end row -->
+        
          <hr class="invis">
          <div class="row">
             <div class="col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.6s">
@@ -370,11 +370,11 @@ http://www.tooplate.com/view/2098-health
                      <img src="../../static/images/testi_03.png" alt="" class="img-responsive alignleft">
                      <h4 class="lead-head">Amanda DOE <small>- Manager of Racer</small></h4>
                   </div>
-                  <!-- end testi-meta -->
+                 
                </div>
-               <!-- end testimonial -->
+             
             </div>
-            <!-- end col -->
+          
             <div class="col-md-6 col-sm-12 wow fadeIn" data-wow-duration="1s" data-wow-delay="0.8s">
                <div class="testimonial clearfix">
                   <div class="desc">
@@ -385,16 +385,16 @@ http://www.tooplate.com/view/2098-health
                      <img src="../../static/images/testi_01.png" alt="" class="img-responsive alignleft">
                      <h4  class="lead-head" >Martin Johnson <small>- Founder of Goosilo</small></h4>
                   </div>
-                  <!-- end testi-meta -->
+                 
                </div>
-               <!-- end testimonial -->
+             
             </div>
-            <!-- end col -->
+         
          </div>
-         <!-- end row -->
+        
       </div>
-      <!-- end container -->
-    </div>
+      
+    </div> -->
 
   </body>
 
@@ -465,7 +465,7 @@ http://www.tooplate.com/view/2098-health
                       <div class="col-xl-3 col-lg-4">
                           <!-- Footer Social -->
                           <div class="footer-social f-right">
-                            <a href="Developers.html">See developers Info</a>  
+                            <a href="{% url 'developers' %}">See developers Info</a>  
                           </div>
                       </div>
                   </div>
