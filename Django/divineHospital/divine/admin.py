@@ -4,4 +4,9 @@ from .models import Appointment
 # Register your models here.
 
 
-admin.site.register(Appointment)
+class AppointmentAdmin(admin.ModelAdmin):
+    list_display = ('Name', 'Date', 'PhoneNo')
+    search_fields = ('Name', 'Date')
+
+
+admin.site.register(Appointment, AppointmentAdmin)
