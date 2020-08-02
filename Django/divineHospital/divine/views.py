@@ -45,8 +45,8 @@ def doctors(request):
     return render(request, "Doctors.html", {})
  
  
-def news(request):
-    return render(request, "News.html", {})
+def services(request):
+    return render(request, "Services.html", {})
  
  
 def newsdetail(request):
