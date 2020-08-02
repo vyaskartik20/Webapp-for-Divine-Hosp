@@ -565,9 +565,10 @@ http://www.tooplate.com/view/2098-health
   /*---------------------------------------
       ABOUT              
   -----------------------------------------*/
-
+/* 
   #about {
-    background: url('../images/about-bg.jpg') no-repeat top center;
+    background: url('../images/about.jpeg') no-repeat top right;
+    height: 65px;
     background-size: cover;
     padding-top: 150px;
     padding-bottom: 150px;
@@ -580,9 +581,9 @@ http://www.tooplate.com/view/2098-health
     margin-top: 1em;
   }
   .profile img {
-    border-radius: 100%;
+    border-radius: 100%; 
     width: 65px;
-    height: 65px;
+    height: 65px; 
     margin-right: 1em;
   }
   .profile figcaption h3 {
@@ -592,8 +593,7 @@ http://www.tooplate.com/view/2098-health
   #about h6 {
     color: #858585;
     margin: 0;
-  }
-
+  }  */
 
 
   /*---------------------------------------
