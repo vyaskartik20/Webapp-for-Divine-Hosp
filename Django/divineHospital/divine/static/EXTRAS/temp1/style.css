@@ -1060,6 +1060,10 @@ li.social-links a {
     MESSAGE BOXES
 -------------------------------------------------------------------*/
 
+/* .service-widget {
+    height: 100px;
+} */
+
 .service-widget h3 {
     font-size: 21px;
     color: #ffffff;
@@ -1111,11 +1115,12 @@ li.social-links a {
 }
 
 .post-media {
-    position: relative;
+    /* position: relative; */
 }
 
 .post-media img {
     width: 100%;
+    height: 200px;
 }
 
 .playbutton {
