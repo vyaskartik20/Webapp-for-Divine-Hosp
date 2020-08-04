@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Health - Medical Website Template</title>
+    <!--
+
+Template 2098 Health
+
+http://www.tooplate.com/view/2098-health
+
+-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Tooplate" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <link rel="stylesheet" href="../../static/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../../static/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="../../static/css/animate.css" />
+    <link rel="stylesheet" href="../../static/css/owl.carousel.css" />
+    <link rel="stylesheet" href="../../static/css/owl.theme.default.min.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="../../static/css/tooplate-style.css" />
+
+
+     <!-- temp3 -->
+  <link rel="stylesheet" href="../../static/EXTRAS/temp3/medicalcenter/assets/css/style.css">
+  <link rel="stylesheet" href="../../static/EXTRAS/temp3/medicalcenter/assets/css/fontawesome-all.min.css">
+
+
+  </head>
+  <body
+    id="top"
+    data-spy="scroll"
+    data-target=".navbar-collapse"
+    data-offset="50"
+  >
+    <!-- PRE LOADER -->
+    <section class="preloader">
+      <div class="spinner">
+        <span class="spinner-rotate"></span>
+      </div>
+    </section>
+
+    <!-- HEADER -->
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-5">
+            <p>Dedicated to caring life</p>
+          </div>
+
+          <div class="col-md-8 col-sm-7 text-align-right">
+            <span class="phone-icon"
+              ><i class="fa fa-phone"></i> 930.861.8861</span
+            >
+            <span class="date-icon"
+              ><i class="fa fa-calendar-plus-o"></i> 9:00 AM - 04:00 PM
+              (Mon-Sat) | 9:00 AM - 02:00 PM (Sun) </span
+            >
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="navbar navbar-default navbar-static-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <button
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".navbar-collapse"
+            >
+              <span class="icon icon-bar"></span>
+              <span class="icon icon-bar"></span>
+              <span class="icon icon-bar"></span>
+            </button>
+  
+            <!-- lOGO TEXT HERE -->
+            <a href="index.html" class="navbar-brand"
+              >DIVINE HOSPITAL</a
+            >
+          </div>
+  
+          <!-- MENU LINKS -->
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="{% url 'index' %}" class="smoothScroll">Home</a></li>
+              <li><a href="{% url 'about' %}" class="smoothScroll">About Us</a></li>
+              <li><a href="{% url 'doctors' %}" class="smoothScroll">Doctors</a></li>
+              <li><a href="{% url 'services' %}" class="smoothScroll">Services</a></li>
+              <li><a href="{% url 'gallery' %}" class="smoothScroll">Gallery</a></li>
+              <li><a href="{% url 'contact' %}" class="smoothScroll">Contact</a></li>
+              <li class="appointment-btn">
+                <a href="{% url 'appointment' %}">Make an appointment</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+    
+
+      <section id="team" data-stellar-background-ratio="1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-sm-6">
+              <div class="about-info">
+                <h2 class="wow fadeInUp" data-wow-delay="0.1s">Our Doctors</h2> <br> <br>
+              </div>
+            </div>
+  
+            <div class="clearfix"></div>
+            
+            <div class="col-md-1 col-sm-6"></div>
+  
+            <div class="col-md-4 col-sm-6">
+              <div class="team-thumb wow fadeInUp" data-wow-delay="0.4s">
+                <img src="../../static/images/doc-1.jpeg" class="img-responsive" alt="" />
+  
+                <div class="team-info">
+                  <h3>Dr Ramekbal Prasad Gupta</h3>
+                  <font color="#263646" size="4sp" >Consultant Orthopaedic Surgeon</font>
+                  <div class="team-contact-info">
+                    <!-- <p><i class="fa fa-phone"></i> 010-070-0170</p> -->
+                    <h5>
+                      <!-- <i class="fa fa-envelope-o"></i>
+                      <a href="#">pregnancy@company.com</a> -->
+                      M.B.B.S(Hons) | M.S(ortho) | M.Ch. </h5>
+                        
+                      <font color="#263646" size="3sp" >
+                        He completed his M.B.B.S (Hons) and M.S (Ortho) from Darbhanga Medical College [DMCH].
+                      <!-- </h6>
+                      <h6>   -->
+                        He completed M.Ch. (gold medalist) from University of Seychelles.
+                      <!-- </h6>
+                      <h6> -->
+                        He is Ex Senior Residence (Holy Family Hospital New Delhi).
+                      <!-- </h6>
+                      <h6> -->
+                        He has been doing private practice since the last eleven years.
+                      </font>
+                  </div>
+                  <!-- <ul class="social-icon">
+                    <li><a href="#" class="fa fa-facebook-square"></a></li>
+                    <li><a href="#" class="fa fa-envelope-o"></a></li>
+                    <li><a href="#" class="fa fa-flickr"></a></li>
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-2 col-sm-6"></div>
+  
+            <div class="col-md-4 col-sm-6">
+              <div class="team-thumb wow fadeInUp" data-wow-delay="0.6s">
+                <img src="../../static/images/doc-2.jpeg" class="img-responsive" alt="" />
+  
+                <div class="team-info">
+                  <h3>Dr Kanchan Mala</h3>
+                  <font color="#263646" size="4sp" >Consultant Gynaecologist and Infertility Specialist </font>
+                  <div class="team-contact-info">
+                    <h5>
+                      M.B.B.S | D.G.O 
+                    </h5>
+
+                    <font color="#263646" size="3sp" >
+                      She completed her M.B.B.S and D.G.O from Darbhanga Medical College [DMCH].
+                      <!-- She completed D.G.O . -->
+                      <!-- He is Ex Senior Residence (Holy Family Hospital New Delhi). -->
+                      She has been doing private practice since the last four years. 
+                      
+                    </font>
+
+                  </div>
+                  <!-- <ul class="social-icon">
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-envelope-o"></a></li>
+                  </ul> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-1 col-sm-6"></div>
+
+          </div>
+        </div>
+      </section>
+
+
+
+      <footer>
+        <!--? Footer Start-->
+        <div class="footer-area section-bg wow fadeInUp" data-wow-delay="0.5s" data-background="../../static/assets/img/gallery/footer_bg.jpg">
+            <div class="container">
+                <div class="footer-top footer-padding">
+                    <div class="row d-flex justify-content-between">
+                        <div class="col-xl-4 col-lg-4 col-md-4 col-sm-8">
+                            <div class="single-footer-caption mb-50">
+                                <!-- logo -->
+                                <div class="footer-logo">
+                                    <h2 style="color:white ">
+                                      DIVINE
+                                      <br>
+                                       HOSPITAL
+                                    </h2>
+                                    <a href="{% url 'admin:index' %}">Login as Admin</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-6 col-sm-5">
+                            <div class="single-footer-caption mb-50">
+                                <div class="footer-tittle">
+                                  <br>
+                                    <h3 style="color:white">Timings</h3> <br>
+                                    <div class="footer-pera">
+                                        <p class="info1">
+                                        <!-- <font  class="info1"> -->
+                                          Monday to Saturday : 9:00 AM to 4:00 PM
+                                        <!-- </p> --><br>
+                                        <!-- <p class="info1"> -->
+                                          Sunday : 9:00 AM to 2:00 PM
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-3 col-md-6 col-sm-8">
+                          <div class="single-footer-caption mb-50">
+                            <div class="footer-number mb-50">
+                                <h4><span>+91  </span>930.861.8861</h4>
+                                <p>DivineHospitalSiwan@gmail.com</p>
+                            </div>
+                            <!-- Form -->
+                            <div class="footer-form">
+                                <div id="mc_embed_signup">
+                                    <!-- <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part" novalidate="true">
+                                        <input type="email" name="EMAIL" id="newsletter-form-email" placeholder=" Email Address " class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your email address'">
+                                        <div class="form-icon">
+                                            <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm">
+                                                Send
+                                            </button>
+                                        </div>
+                                        <div class="mt-10 info"></div>
+                                    </form> -->
+                                    <div class="footer-social f">
+                                      <!-- <a href="#"><i class="fab fa-twitter"></i></a> -->
+                                      <a target="_blank" href="mailto: DivineHospitalSiwan@gmail.com "><i class="fa fa-envelope"></i></a>
+                                      <a target="_blank" href="https://www.facebook.com/Divinehospitalsiwan-630977924195261/">
+                                        <i class="fab fa-facebook-f"></i></a>
+                                      <!-- <a href="#"><i class="fas fa-globe"></i></a> -->
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="row d-flex justify-content-between align-items-center">
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="footer-copy-right">
+                                <p> Developed by Kartik and Aditya </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4">
+                            <!-- Footer Social -->
+                            <div class="footer-social f-right">
+                              <a href="{% url 'developers' %}">See developers Info</a>  
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End-->
+    </footer>
+
+
+
+
+
+<!-- SCRIPTS -->
+<script src="../../static/js/jquery.js"></script>
+<script src="../../static/js/bootstrap.min.js"></script>
+<script src="../../static/js/jquery.sticky.js"></script>
+<script src="../../static/js/jquery.stellar.min.js"></script>
+<script src="../../static/js/wow.min.js"></script>
+<script src="../../static/js/smoothscroll.js"></script>
+<script src="../../static/js/owl.carousel.min.js"></script>
+<script src="../../static/js/custom.js"></script>
+</body>
+</html>
