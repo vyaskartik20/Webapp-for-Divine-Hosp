@@ -11,6 +11,11 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
+import json
+
+with open('/etc/config.json') as config_file:
+	config = json.load(config_file)
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -23,12 +28,12 @@ TEMPLATE_DIR = os.path.join(BASE_DIR, 'divine/templates/divine')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '8$d2^8z@t9m2i4swtny(l8qen=lptf)r6gfmir^i5*n4u*e*f7'
+SECRET_KEY =  config['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG =  False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['www.divinehospitalsiwan.com','172.105.34.58']
 
 
 # Application definition
